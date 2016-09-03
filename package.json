@@ -1,0 +1,20 @@
+{
+  "name": "type-script-command-and-query",
+  "version": "0.0.0",
+  "description": "TypeScript-CommandAndQuery",
+  "main": "app.js",
+  "scripts": {
+    "test": "node -r ts-node/register node_modules/jasmine/bin/jasmine"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "jasmine": "2.4.1",
+    "ts-node": "1.2.2",
+    "typescript": "^1.8.10"
+  },
+  "author": {
+    "name": "danielef"
+  }
+}
